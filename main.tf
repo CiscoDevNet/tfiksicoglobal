@@ -154,7 +154,7 @@ variable "portgroup" {
         type        = list(string)
 }
 output "portgroup" {
-        value = base64decode(var.portgroup)
+        value = var.portgroup
 }
 variable "datastore" {
   type = string
