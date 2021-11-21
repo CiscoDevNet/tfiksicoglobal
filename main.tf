@@ -151,7 +151,7 @@ output "device_name" {
         value = var.device_name
 }
 variable "portgroup" {
-        type        = list(string)
+        type        = string
 }
 output "portgroup" {
         value = base64decode(var.portgroup)
