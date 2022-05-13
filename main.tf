@@ -3,6 +3,12 @@ variable "globalwsname" {
   type = string
 }
 
+variable "smm_ver" {
+  type = string
+}
+output "smm_ver" {
+        value = var.smm_ver
+}
 variable "ikswsname" {
   type = string
 }
