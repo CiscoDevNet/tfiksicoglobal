@@ -9,6 +9,13 @@ variable "ikswsname" {
 output "ikswsname" {
         value = var.ikswsname
 }
+variable "smm_ver" {
+  type = string
+  default = ""
+}
+output "smm_ver" {
+  value = var.smm_ver
+}
 #Output all global variables
 variable "password" {
   type = string
